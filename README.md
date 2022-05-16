@@ -1,4 +1,7 @@
-# SurexDirectiveAngular13
+# Canada phone - Directive Angular13
+
+This directive allows to format a value to a canadian phone number format while typing into an input field. The final value should be just the numbers without symbols or spaces.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
 
