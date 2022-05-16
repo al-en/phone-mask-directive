@@ -25,7 +25,9 @@ export class AppComponent {
 
       // Get just the numeric values from the phone Number Control
       let modelValue = phoneNumberControl?.value.replace(/[^\d]/g,''); 
-      if(modelValue.lenght!=10){
+      
+      
+      if(modelValue.length!=10){
         modelValue=null; 
       }
 
