@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+    --fontBase: "Montserrat",sans-serif;
+    --black:#000;
+    --white:#FFF;
+    --red:#fc4b45;
+    --light-grey:#ccc;
+    --dark-grey:#333;
+    --purple:#312a53;
+    --light-purple:#f7f6fd;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fontBase);
+}
